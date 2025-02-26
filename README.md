@@ -3,7 +3,7 @@ SBOM Viewer README
 
 Overview
 --------
-SBOM Viewer is a simple, standalone web application designed to display Software Bill of Materials (SBOM) information in a user-friendly manner. It specifically supports CycloneDX SBOM JSON files and extracts key metadata and component details to display in a structured table format.
+SBOM Viewer is a simple, standalone web application designed to display Software Bill of Materials (SBOM) information in a user-friendly manner. It specifically supports CycloneDX SBOM JSON files and extracts key metadata and component details to display in a structured table format. It also is a basic [NTIA Minimum Elements](https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf) conformance checker, and can help ensure your SBOMs are complete.
 
 Features
 --------
@@ -11,7 +11,7 @@ Features
 
 • **Components Table:** Lists each component with its supplier name, component name, version, unique identifiers (purl and cpe), and dependency relationships.
 
-• **Visual Indicators:** Highlights missing or “N/A” values with a red background for easy identification.
+• **NTIA Minimum Elements Checker:** Highlights missing or “N/A” values with a red background for easy identification.
 
 How to Run
 ----------
@@ -42,12 +42,15 @@ Since this is a standalone application, the file structure is minimal:
 Dependencies
 ------------
 • No external libraries or frameworks are required.
+
 • The application runs entirely in the browser with standard HTML5, CSS3, and vanilla JavaScript.
 
 Troubleshooting
 ---------------
 • **JSON Parsing Errors:** If you encounter an error parsing your SBOM file, ensure the JSON is properly formatted.
+
 • **File Format:** Only CycloneDX SBOM JSON files are supported. Ensure your file has the correct `.json` extension.
+
 • **Browser Compatibility:** The application should work in any modern web browser with JavaScript enabled.
 
 License
