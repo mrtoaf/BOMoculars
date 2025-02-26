@@ -8,9 +8,10 @@ SBOM Viewer is a simple, standalone web application designed to display Software
 Features
 --------
 • **SBOM Metadata Display:** Shows the timestamp and author information (derived from the first tool’s metadata) from the SBOM file.
+
 • **Components Table:** Lists each component with its supplier name, component name, version, unique identifiers (purl and cpe), and dependency relationships.
+
 • **Visual Indicators:** Highlights missing or “N/A” values with a red background for easy identification.
-• **Custom File Input:** Uses a custom “Choose CycloneDX SBOM” button for a clean file selection experience.
 
 How to Run
 ----------
