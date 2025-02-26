@@ -1,9 +1,9 @@
-SBOMoculars 👀🔍
+BOMoculars 👀 🔍
 ==================
 
 Overview
 --------
-SBOMoculars is a simple, standalone web application designed to display Software Bill of Materials (SBOM) information in a user-friendly manner. It specifically supports CycloneDX SBOM JSON files and extracts key metadata and component details to display in a structured table format. It also is a basic [NTIA Minimum Elements](https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf) conformance checker, and can help ensure your SBOMs are complete.
+BOMoculars is a simple, standalone web application designed to display Software Bill of Materials (SBOM) information in a user-friendly manner. It specifically supports CycloneDX SBOM JSON files and extracts key metadata and component details to display in a structured table format. It also is a basic [NTIA Minimum Elements](https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf) conformance checker, and can help ensure your SBOMs are complete.
 
 Features
 --------
@@ -62,4 +62,4 @@ Contact
 For any questions, issues, or contributions, please contact pellegrini.ch@northeastern.edu or submit an issue via the project's repository (if available).
 
 --------------------------------------------------
-Enjoy using SBOMoculars!
+Enjoy using BOMoculars!
