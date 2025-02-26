@@ -1,4 +1,4 @@
-SBOM Viewer README
+SBOMoculars
 ==================
 
 Overview
